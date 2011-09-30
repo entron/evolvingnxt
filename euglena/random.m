@@ -1,6 +1,6 @@
 %%This matlab program is to let Lego NXT approach the light using a
 %%random walker scheme. For more information and the step up please visit
-%%http://legonxt.spacetimewave.net/
+%%http://evolvingnxt.blogspot.com/
 %%April 23, 2011
 %%Cheng Guo
 
