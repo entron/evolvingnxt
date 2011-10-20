@@ -28,13 +28,13 @@ mDrive.Power=-50; %Positive is going backward.
 mTurn.Power=80; %Positive is to turn left.
 mTurn.TachoLimit=100; %This value should not be bigger than 100 according the the hardware setup.
 
-disp('Drive forward for 3 seconed. Press anykey to start...');pause;
+disp('Drive forward for 3 second. Press any key to start...');pause;
 mDrive.SendToNXT();pause(3);mDrive.Stop('off');
 
-disp('Drive backword for 3 seconed. Press anykey to start...');pause;
+disp('Drive backward for 3 second. Press any key to start...');pause;
 mDrive.Power=50;mDrive.SendToNXT();pause(3);mDrive.Stop('off'); mDrive.Power=-50;
 
-disp('Turn left. Press anykey to start...');pause;
+disp('Turn left. Press any key to start...');pause;
 mDrive.SendToNXT();
 mTurn.SendToNXT();
 pause(6);
@@ -43,7 +43,7 @@ mTurn.Power=-80;
 mTurn.SendToNXT();
 pause(1)
 
-disp('Turn right. Press anykey to start...');pause;
+disp('Turn right. Press any key to start...');pause;
 mDrive.SendToNXT();
 mTurn.SendToNXT();
 pause(6);
@@ -52,7 +52,7 @@ mTurn.Power=80;
 mTurn.SendToNXT();
 pause(1)
 
-disp('Back and turn. Press anykey to start...');pause;
+disp('Back and turn. Press any key to start...');pause;
 mDrive.Power=50;pause(0.1);
 mDrive.SendToNXT();
 mTurn.Power=-80;
@@ -63,7 +63,7 @@ mTurn.Power=80;
 mTurn.SendToNXT();
 pause(0.5)
 
-disp('Back and turn to the other direction. Press anykey to start...');pause;
+disp('Back and turn to the other direction. Press any key to start...');pause;
 mDrive.SendToNXT();
 mTurn.SendToNXT();
 pause(6);
@@ -85,7 +85,7 @@ disp('========Now test the sonar system========')
         end
     end
 mSpower=40; %Sonar moter power. Positive is to turn right.
-disp('Sweep sonar and measure the distance. Press anykey to start...');pause;
+disp('Sweep sonar and measure the distance. Press any key to start...');pause;
 mSonar.ResetPosition();
 mSonar.Power=mSpower; mSonar.TachoLimit=90; 
 mSonar.SendToNXT();
