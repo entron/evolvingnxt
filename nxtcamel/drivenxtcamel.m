@@ -1,6 +1,6 @@
 function drivenxtcamel()
 %%DRIVENNXTCAMEL drives NXTCamel around and avoid obstacles based on the
-%%distance measre inforation. 
+%%distance measurement. 
 %%Oct 2011
 %%http://evolvingnxt.blogspot.com
 %%Cheng Guo
